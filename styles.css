@@ -1,0 +1,35 @@
+body{
+    background: gainsboro;
+    margin: 0;
+}
+header{
+    background: white;
+    padding: 5px;
+}
+header h1{
+    margin: 0;
+}
+div.post{
+    background: white;
+    margin-top: 20px;
+}
+div.post img{
+    width: 100%;
+}
+div.post .postheader div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .postheader div:last-child{
+    display: inline-block;
+    text-align: right;
+    width: 18%;
+    color: gray;
+}
+div.post h2, div.post p{
+    padding: 10px;
+}
+div.container{
+    width: 600px;
+    margin: auto;
+}
